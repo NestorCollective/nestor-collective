@@ -7,7 +7,7 @@ def inline(m):
     if not os.path.exists(path): return m.group(0)
     mt={'.webp':'image/webp','.png':'image/png'}.get(os.path.splitext(path)[1].lower()) or mimetypes.guess_type(path)[0] or 'image/jpeg'
     return "img:'data:%s;base64,%s'"%(mt,base64.b64encode(open(path,'rb').read()).decode())
-s=re.sub(r"img:'(img/[^']+)'",inline,s)
+s=re.sub(r"img:'/?(img/[^']+)'",inline,s)
 m=re.search(r'<head>(.*?)</head>\s*<body>(.*)</body>',s,re.S)
 head=re.sub(r'<meta charset[^>]*>\s*|<meta name="viewport"[^>]*>\s*','',m.group(1))
 out=sys.argv[1] if len(sys.argv)>1 else os.path.join(here,'artifact.html')
