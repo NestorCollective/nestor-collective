@@ -7,3 +7,6 @@ Prototipo (demo 1): hero, belief, globo interactivo y equipo. Vanilla HTML/CSS/J
 - `build_artifact.py` — genera la version con fotos embebidas para publicar como Artifact.
 
 Deploy: Vercel apuntando a la raiz del repo (sitio estatico, sin build).
+
+
+Idiomas: ingles en la raiz, italiano en /it/ y espanol en /es/ (se generan con _build/traducir.py).
