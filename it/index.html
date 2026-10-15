@@ -1050,15 +1050,15 @@ makeSlider(document.getElementById('teamSlider'), TEAM, m=>`<article class="slid
 
 /* ---------- speakers (photos in img/speakers/) ---------- */
 const SPEAKERS = [
-  { hidden:true, /* publish once he is officially announced as the first speaker */ first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Esperto di comunicazione non verbale ed ex agente speciale dell’FBI', img:'/img/speakers/joe-navarro.webp',
-    short:'Entrato nell’FBI a 23 anni, vi ha trascorso 25 anni come agente e supervisore nel controspionaggio e nell’antiterrorismo, dove leggere le persone è diventato il suo mestiere.',
-    facts:[['25','Anni nell’FBI'],['2003','Lascia l’FBI'],['2024','Mentore del fondatore di NESTOR']],
+  { first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Ex agente speciale dell’FBI · Comunicazione non verbale e psicologia della fiducia', img:'/img/speakers/joe-navarro.webp',
+    short:'25 anni nell’FBI tra controspionaggio e valutazione comportamentale. Autore di 15 libri tradotti in 32 lingue, tra cui What Every BODY Is Saying.',
+    facts:[['25','Anni nell’FBI'],['15','Libri scritti'],['32','Lingue']],
     bio:[
-      'Joe Navarro fu contattato dall’FBI a soli 23 anni, diventando uno degli agenti più giovani mai reclutati dal Bureau. Vi prestò servizio per 25 anni come agente e supervisore nel controspionaggio e nell’antiterrorismo.',
-      'È in quel lavoro che ha sviluppato la sua competenza nel leggere il comportamento non verbale, un’abilità che lo ha reso efficace nella caccia alle spie e lo ha portato a formare altri agenti e membri della comunità di intelligence.',
-      'Dopo aver lasciato l’FBI nel 2003, si è dedicato a conferenze e consulenze per grandi aziende di tutto il mondo ed è oggi considerato una delle massime autorità sulla comunicazione non verbale in ambito business. Dal 2024 è mentore del fondatore di NESTOR, Simone Borgogno.'
+      'Joe Navarro, M.A., è un ex agente speciale dell’FBI e una delle massime autorità al mondo in comunicazione non verbale, comportamento umano e psicologia della fiducia.',
+      'Nei suoi 25 anni di carriera al Federal Bureau of Investigation si è specializzato in controspionaggio e valutazione comportamentale. Oggi Navarro è riconosciuto in tutto il mondo come un pioniere nello studio scientifico e nell’applicazione pratica del linguaggio del corpo, con un approccio fondato su osservazione, contesto, comfort ed empatia.',
+      'Ha scritto 15 libri, tradotti in 32 lingue, tra cui What Every BODY Is Saying, che ha venduto oltre un milione di copie. Ha affiancato come consulente aziende Fortune 500, agenzie di intelligence e istituzioni governative in sei continenti, aiutando i professionisti a comunicare meglio, rafforzare le relazioni e crescere come leader.'
     ],
-    tags:['Comunicazione non verbale','Comportamento umano','Controspionaggio','Business'] },
+    tags:['Comunicazione non verbale','Comportamento umano','Psicologia della fiducia','Controspionaggio'] },
   { soon:true, kicker:'Prossima sessione', desc:'Una nuova voce ogni mese: negoziatori, diplomatici, esperti e CEO, con un Q&A aperto agli studenti delle nostre associazioni partner.' },
 ];
 const SPK=SPEAKERS.filter(sp=>!sp.hidden);

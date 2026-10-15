@@ -1050,15 +1050,15 @@ makeSlider(document.getElementById('teamSlider'), TEAM, m=>`<article class="slid
 
 /* ---------- speakers (photos in img/speakers/) ---------- */
 const SPEAKERS = [
-  { hidden:true, /* publish once he is officially announced as the first speaker */ first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Experto en comunicación no verbal y ex agente especial del FBI', img:'/img/speakers/joe-navarro.webp',
-    short:'Reclutado por el FBI a los 23, pasó 25 años ahí como agente y supervisor en contrainteligencia y antiterrorismo, donde leer a las personas se volvió su oficio.',
-    facts:[['25','Años en el FBI'],['2003','Se retira del FBI'],['2024','Mentor del fundador de NESTOR']],
+  { first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Ex agente especial del FBI · Comunicación no verbal y psicología de la confianza', img:'/img/speakers/joe-navarro.webp',
+    short:'25 años en el FBI en contrainteligencia y evaluación del comportamiento. Autor de 15 libros traducidos a 32 idiomas, entre ellos What Every BODY Is Saying.',
+    facts:[['25','Años en el FBI'],['15','Libros escritos'],['32','Idiomas']],
     bio:[
-      'A Joe Navarro lo contactó el FBI con apenas 23 años, y se convirtió en uno de los agentes más jóvenes jamás reclutados por el Bureau. Sirvió allí 25 años como agente y supervisor en contrainteligencia y antiterrorismo.',
-      'Fue en ese trabajo donde desarrolló su pericia para leer el comportamiento no verbal, una habilidad que lo hizo eficaz cazando espías y lo llevó a formar a otros agentes y a miembros de la comunidad de inteligencia.',
-      'Tras retirarse del FBI en 2003, se dedicó a dar charlas y asesorar a grandes empresas de todo el mundo, y hoy se lo considera una de las máximas autoridades en comunicación no verbal aplicada a los negocios. Desde 2024 es mentor del fundador de NESTOR, Simone Borgogno.'
+      'Joe Navarro, M.A., es ex agente especial del FBI y una de las máximas autoridades del mundo en comunicación no verbal, comportamiento humano y psicología de la confianza.',
+      'A lo largo de sus 25 años de carrera en el Federal Bureau of Investigation se especializó en contrainteligencia y evaluación del comportamiento. Hoy se lo reconoce en todo el mundo como un pionero en el estudio científico y la aplicación práctica del lenguaje corporal, con una mirada basada en la observación, el contexto, la comodidad y la empatía.',
+      'Escribió 15 libros, traducidos a 32 idiomas, entre ellos What Every BODY Is Saying, que vendió más de un millón de ejemplares. Asesoró a empresas Fortune 500, agencias de inteligencia e instituciones de gobierno en seis continentes, ayudando a profesionales a comunicarse mejor, fortalecer sus vínculos y crecer como líderes.'
     ],
-    tags:['Comunicación no verbal','Comportamiento humano','Contrainteligencia','Negocios'] },
+    tags:['Comunicación no verbal','Comportamiento humano','Psicología de la confianza','Contrainteligencia'] },
   { soon:true, kicker:'Próxima sesión', desc:'Una voz nueva cada mes: negociadores, diplomáticos, expertos y CEOs, con una ronda de preguntas abierta a los estudiantes de nuestras asociaciones partner.' },
 ];
 const SPK=SPEAKERS.filter(sp=>!sp.hidden);

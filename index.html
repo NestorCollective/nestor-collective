@@ -1050,15 +1050,15 @@ makeSlider(document.getElementById('teamSlider'), TEAM, m=>`<article class="slid
 
 /* ---------- speakers (photos in img/speakers/) ---------- */
 const SPEAKERS = [
-  { hidden:true, /* publish once he is officially announced as the first speaker */ first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Nonverbal communications expert and former FBI special agent', img:'/img/speakers/joe-navarro.webp',
-    short:'Recruited by the FBI at 23, he spent 25 years there as an agent and supervisor in counterintelligence and counterterrorism, where reading people became his craft.',
-    facts:[['25','Years at the FBI'],['2003','Retired from the FBI'],['2024','Mentor to NESTOR\u2019s founder']],
+  { first:'Joe', last:'Navarro', kicker:'Global Thought Leaders', pos:'Former FBI Special Agent · Nonverbal communication and the psychology of trust', img:'/img/speakers/joe-navarro.webp',
+    short:'25 years at the FBI in counterintelligence and behavioral assessment. Author of 15 books translated into 32 languages, including What Every BODY Is Saying.',
+    facts:[['25','Years at the FBI'],['15','Books written'],['32','Languages']],
     bio:[
-      'Joe Navarro was approached by the FBI at just 23, making him one of the youngest agents the Bureau had ever recruited. He went on to serve for 25 years as an agent and supervisor in counterintelligence and counterterrorism.',
-      'It was in that work that he developed his expertise in reading nonverbal behavior, a skill that made him an effective spy-catcher and led him to train fellow agents and members of the intelligence community.',
-      'After retiring from the FBI in 2003, he turned to speaking and consulting for major companies around the world, and he is today considered one of the leading authorities on nonverbal communication in business. Since 2024 he has mentored NESTOR\u2019s founder, Simone Borgogno.'
+      'Joe Navarro, M.A., is a former FBI Special Agent and one of the world’s foremost authorities on nonverbal communication, human behavior, and the psychology of trust.',
+      'During his distinguished 25-year career with the Federal Bureau of Investigation, he specialized in counterintelligence and behavioral assessment. Today, Navarro is recognized worldwide as a pioneer in the scientific study and practical application of body language, emphasizing observation, context, comfort, and human empathy.',
+      'Navarro has written 15 books, translated into 32 languages, including What Every BODY Is Saying, which has sold more than one million copies. He has advised Fortune 500 companies, intelligence agencies, and government institutions across six continents, helping professionals improve communication, strengthen relationships, and elevate leadership.'
     ],
-    tags:['Nonverbal communication','Human behavior','Counterintelligence','Business'] },
+    tags:['Nonverbal communication','Human behavior','Psychology of trust','Counterintelligence'] },
   { soon:true, kicker:'Next session', desc:'A new voice every month: negotiators, diplomats, experts and CEOs, followed by an open Q&A with students from our partner associations.' },
 ];
 const SPK=SPEAKERS.filter(sp=>!sp.hidden);
